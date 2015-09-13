@@ -1,0 +1,22 @@
+<ion-view view-title="Login">
+  <ion-content>
+
+    <span>{{ name }}</span>
+    <label class="item">
+      <button class="button button-block button-positive" ng-click="fbLogin()">
+        Login with Facebook
+      </button>
+    </label>
+    <label class="item">
+      <button class="button button-block button-positive" ng-click="getLoginStatus()">
+        Get Login Status
+      </button>
+    </label>
+    <label class="item">
+      <button class="button button-block button-positive" ng-click="getAccessToken()">
+        Get Access Token
+      </button>
+    </label>
+    <a ui-sref="capture">Capture</a>
+  </ion-content>
+</ion-view>

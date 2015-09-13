@@ -1,0 +1,25 @@
+<ion-view view-title="Capture">
+  <ion-content>
+    <div class="list">
+      <div class="item item-image">
+        <img  ng-src="{{photo}}" ng-click="takePhoto()">
+      </div>
+
+      <label class="item item-input">
+        <input type="text" placeholder="Name">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Restaurant">
+      </label>
+      <label class="item item-input">
+        <textarea placeholder="Comments"></textarea>
+      </label>
+
+      <div class="list list-inset">
+        <div class="padding">
+          <button class="button button-block button-positive">Submit</button>
+        </div>
+      </div>
+
+  </ion-content>
+</ion-view>
